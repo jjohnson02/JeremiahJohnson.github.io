@@ -1,0 +1,90 @@
+<!-- 
+    Author: Jeremiah Johnson
+    Last Edit: 02/14/2024
+
+    Hobbies page for my website - Describing the hobby of playing and organizing amateur pool tournaments
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character set and viewport for better compatibility -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to the external stylesheet for styling -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Set the title of the page -->
+    <title>Hobbies - Jeremiah Johnson</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Main heading -->
+        <h1>Jeremiah Johnson</h1>
+        
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <!-- Navigation links to different pages -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="hobby1.html">Pool</a></li>
+                <li><a href="hobby2.html">Gym</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <div class="content">
+        <!-- Hobby details section -->
+        <section>
+            <!-- Hobby title -->
+            <h2>Pool</h2>
+
+            <!-- Hobby description -->
+            <p> 
+                One of my primary pastimes involves participating in and organizing 
+                amateur pool tournaments within the local community. Despite having only 
+                engaged in this activity for a year, it's become a significant and dedicated 
+                pursuit for me. I am committed to achieving excellence in the game. 
+                Pool, being an immensely humbling sport, demands a substantial investment 
+                of time, unwavering consistency, and a great deal of patience. 
+            </p>
+
+            <!-- Additional hobby information -->
+            <p>
+                I have livestreamed some of the tournaments that I have hosted on YouTube and Facebook. 
+            </p>
+
+            <!-- Media section with a YouTube video -->
+            <div class="media">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0zlJhY0FDjg?si=t45_GfAOLUYpFtCl&amp;start=10" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Copyright notice -->
+        <p>&copy; 2024 Jeremiah Johnson. All rights reserved.</p>
+    </footer>
+
+    <!-- Dark mode toggle button -->
+    <div class="theme-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</div>
+
+    <!-- JavaScript function for toggling dark mode -->
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark');
+        }
+    </script>
+
+</body>
+</html>

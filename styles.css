@@ -1,0 +1,138 @@
+/* 
+    Author: Jeremiah Johnson
+    Last Edit: 02/14/2024
+
+    Styling page for all pages on the website
+*/
+
+/* Set global styles for the entire body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Enhance transition for dark mode */
+}
+
+/* Styles for light mode */
+.light {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Styles for dark mode */
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Header styling */
+header {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation list item styling */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Navigation link styling */
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for navigation links */
+}
+
+/* Navigation link hover effect */
+nav a:hover {
+    color: #007bff; /* Change to a color of your choice */
+}
+
+/* Navigation link color in dark mode */
+.dark nav a {
+    color: #fff;
+}
+
+/* Navigation link hover effect in dark mode */
+.dark nav a:hover {
+    color: #007bff; /* Change to a color of your choice */
+}
+
+/* Main content styling */
+.content {
+    padding: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px; /* Add margin to the top */
+}
+
+/* Bio section styling */
+.bio {
+    display: flex;
+    align-items: center;
+}
+
+/* Profile image styling */
+.profile-image {
+    width: 300px; 
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Bio text styling */
+.bio-text {
+    max-width: 500px; 
+    font-size: 20px;
+    height: 500px;
+}
+
+/* Theme toggle button styling */
+.theme-toggle {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust bio section for smaller screens */
+    .bio {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Adjust profile image for smaller screens */
+    .profile-image {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

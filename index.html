@@ -1,0 +1,84 @@
+<!-- 
+    Author: Jeremiah Johnson
+    Last Edit: 2/14/2024
+
+    Index page for my website
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character set and viewport for better compatibility -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to the external stylesheet for styling -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Set the title of the page -->
+    <title>Jeremiah Johnson - Personal Website</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Main heading -->
+        <h1>Jeremiah Johnson</h1>
+        
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <!-- Navigation links to different pages -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="hobby1.html">Pool</a></li>
+                <li><a href="hobby2.html">Gym</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <div class="content">
+        <!-- Bio section -->
+        <section class="bio">
+            <!-- Profile image -->
+            <img src="biopic.jpg" alt="Jeremiah Johnson" class="profile-image">
+
+            <!-- Bio text -->
+            <div class="bio-text">
+                <p> 
+                    Hello, my name is Jeremiah Johnson. I am from Albuquerque, New Mexico. 
+                    I'm currently on the pursuit of a Bachelor's degree in Computer Science at NMSU. 
+                </p>
+                <p>
+                    I possess practical experience in the field of computer science, 
+                    engaging in satellite communications during my three-year tenure in the military. 
+                    Additionally, I contributed my skills as an electronics technician at NASA, 
+                    working on diverse systems that predate my own existence.
+                </p>
+                <p>
+                    Beyond my professional life, I am passionate about working out, 
+                    playing pool, and spending time with friends and family.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Copyright notice -->
+        <p>&copy; 2024 Jeremiah Johnson. All rights reserved.</p>
+    </footer>
+
+    <!-- Dark mode toggle button -->
+    <div class="theme-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</div>
+
+    <!-- JavaScript function for toggling dark mode -->
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark');
+        }
+    </script>
+
+</body>
+</html>

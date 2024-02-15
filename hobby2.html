@@ -1,0 +1,87 @@
+<!-- 
+    Author: Jeremiah Johnson
+    Last Edit: 02/14/2024
+
+    Gym page for my website - Describing the hobby of hitting the gym
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character set and viewport for better compatibility -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to the external stylesheet for styling -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Set the title of the page -->
+    <title>Gym - Jeremiah Johnson</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Main heading -->
+        <h1>Jeremiah Johnson</h1>
+        
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <!-- Navigation links to different pages -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="hobby1.html">Pool</a></li>
+                <li><a href="hobby2.html">Gym</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content section -->
+    <div class="content">
+        <!-- Hobby details section -->
+        <section>
+            <!-- Hobby title -->
+            <h2>Gym</h2>
+
+            <!-- Hobby description -->
+            <p> 
+                One of my cherished pastimes involves hitting the gym for powerlifting sessions. 
+                I've dedicated nearly a decade to this pursuit, engaging in powerlifting 
+                competitions over the past four years.
+            </p>
+
+            <!-- Additional hobby information -->
+            <p>
+                I initially ventured into weightlifting during my high school years when 
+                I enrolled in a weight training class. It was there that I uncovered a 
+                genuine passion for lifting. The experience was further fueled by my 
+                military service, which sustained my enthusiasm for becoming stronger and 
+                pushing my lifting limits.
+            </p>
+
+            <!-- Media section with a gym image -->
+            <div class="media">
+                <img src="gym.jpg" alt="Gym Image" width="500" height="600">
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Copyright notice -->
+        <p>&copy; 2024 Jeremiah Johnson. All rights reserved.</p>
+    </footer>
+
+    <!-- Dark mode toggle button -->
+    <div class="theme-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</div>
+
+    <!-- JavaScript function for toggling dark mode -->
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark');
+        }
+    </script>
+
+</body>
+</html>
